@@ -588,6 +588,12 @@ a.current::after {
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    flex-direction: row;
+    flex-shrink: 0;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-tablet-wrap {
@@ -699,7 +705,6 @@ a.current::after {
     width: 450px;
   }
 }
-
 .footer-email-title {
   font-weight: 700;
   font-size: 14px;
