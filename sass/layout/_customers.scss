@@ -3,10 +3,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-    @media screen and (min-width: 1200px) {
-      padding-top: 94px;
-      padding-bottom: 94px;
-    }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .customers-title {
@@ -39,15 +39,15 @@
   }
 }
 
-.customers-item{
+.customers-item {
   width: calc(50% - 15px);
   @media screen and (min-width: 768px) {
     width: 226px;
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
-}
+  }
 
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     width: 170px;
     flex-basis: calc((100% - 180px) / 6);
     margin-left: 30px;
@@ -58,7 +58,7 @@
   height: 92px;
   margin-bottom: 30px;
 
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 
   display: flex;
