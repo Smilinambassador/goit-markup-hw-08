@@ -224,18 +224,20 @@
   fill: inherit;
 }
 
-.mob-current {
-  color: var(--accent-color);
-}
+
 
 .mob-navigation-list__item {
   margin-bottom: 32px;
+  .mob-current {
+    color: var(--accent-color);
+  }
 }
 
 .mob-navigation-list__link {
   @media screen and (max-width: 479px) {
     font-size: 8vmin;
   }
+  color: inherit;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
